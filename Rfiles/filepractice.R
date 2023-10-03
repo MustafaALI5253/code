@@ -1,0 +1,13 @@
+x<-(seq(from = 1,to = 16,by=1))
+y<-(seq(from = 17,to = 32,by=1))
+print(x)
+print(y)
+k<-matrix(x,4,4)
+z<-matrix(y,4,4)
+print(k)
+print(z)
+
+print(k-z)
+print(k+z)
+print(k*z)
+print(k/z)
